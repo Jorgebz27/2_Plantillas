@@ -56,7 +56,7 @@ int main()
     cout << "char : " << sizeof(char) << "\n";
     cout << "string : " << sizeof(string) << "\n";
 
-    DataHelper<char>* mychar = new DataHelper<char>('w');
+    DataHelper<char>* mychar = new DataHelper<char>(25);
     DataHelper<float>* myfloat = new DataHelper<float>(3.14159);
 
     DataHelper<char*>* mychars = new DataHelper<char*>((char*) "Holaaaaa?");
